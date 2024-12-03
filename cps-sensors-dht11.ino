@@ -1,7 +1,7 @@
 #include <DHT.h> // DHT library by Adafruit
 
 #define DHTTYPE DHT11  // alternatively DHT 22
-#define PIN_DHT = 16;  // GPIO pin for sensor
+#define PIN_DHT 16;  // GPIO pin for sensor
 
 //create dht sensor object
 DHT dht(PIN_DHT, DHTTYPE);
